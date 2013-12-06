@@ -1,0 +1,17 @@
+{
+  "name": "Flustro",
+  "version": "0.0.0",
+  "description": "Flustro",
+  "main": "app.js",
+  "author": {
+    "name": "t3rse",
+    "email": "david.seruyange@gmail.com"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*",
+    "underscore": "~1.5.2"
+  }
+}
+
