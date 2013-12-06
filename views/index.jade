@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  #contentBox
+    h1(class='jumbo')= title
+    p Generate something useful
+      #pcode #{pword}
+    form(action='',type='GET')
+      ul(id='config')
+        li
+          span Configure Options:
+        li
+          span(class='input-label') Numbers:
+          input(name='n',id='n',class='config-input',value='#{nums}') 
+        li
+          span(class='input-label') Upper Case:
+          input(name='c',id='c',class='config-input',value='#{ucases}')
+        li
+          span(class='input-label') Specials:
+          input(name='s',id='s',class='config-input',value='#{specials}')
+        li
+          input(type='submit',value='Generate Another')
