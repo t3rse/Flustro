@@ -20,6 +20,10 @@ h1.jumbo {
 #config {
   list-style: none;
 }
+#config > li {
+  height: 30px;
+  margin-top: 10px;
+}
 .input-label {
   width: 80px;
   display: inline-block;
@@ -32,4 +36,18 @@ h1.jumbo {
   width: 80px;
   display: inline-block;
   text-align: right;
+}
+input[type='range'] {
+  vertical-align: middle;
+}
+.range-display {
+  color: #333;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background: #333;
+  color: #fff;
+  padding: 3px;
+  height: 15px;
+  width: 15px;
+  text-align: center;
 }

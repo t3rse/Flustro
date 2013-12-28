@@ -11,13 +11,16 @@ block content
           span Configure Options:
         li
           span(class='input-label') Numbers:
-          input(name='n',id='n',class='config-input',value='#{nums}') 
+          input(name='n',id='n',type='range',min='0',max='20',value='#{nums}')
+          label(class='range-display') #{nums}
         li
           span(class='input-label') Upper Case:
-          input(name='c',id='c',class='config-input',value='#{ucases}')
+          input(name='c',id='c',type='range',min='0',max='20',value='#{ucases}')
+          label(class='range-display') #{ucases}
         li
           span(class='input-label') Specials:
-          input(name='s',id='s',class='config-input',value='#{specials}')
+          input(name='s',id='s',type='range',min='0',max='20',value='#{specials}')
+          label(class='range-display') #{specials}
         li
           input(type='submit',value='Generate Another')
-  #footer v0.1
+  #footer v0.2
